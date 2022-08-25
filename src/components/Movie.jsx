@@ -6,6 +6,7 @@ import { arrayUnion, doc, updateDoc } from 'firebase/firestore';
 
 const Movie = ({ item }) => {
   const [like, setLike] = useState(false);
+  // eslint-disable-next-line 
   const [saved, setSaved] = useState(false);
   const { user } = UserAuth();
 
